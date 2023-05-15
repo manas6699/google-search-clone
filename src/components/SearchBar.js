@@ -15,6 +15,7 @@ const SearchBar = () => {
 
   const onSearch = (newFilterData) => {
     setSearch(newFilterData);
+    alert("You searched for " + newFilterData);
   };
 
   const handleClose = () => {
